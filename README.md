@@ -1,1 +1,1 @@
-A simple React app that displays a set of lottery balls generated randomically.
+A simple React app that displays a set of lottery balls generated randomly.
