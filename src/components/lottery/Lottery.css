@@ -1,0 +1,33 @@
+.lottery {
+  border: solid 2px gray;
+  padding: 1em 0 2em 0;
+  text-align: center;
+  margin: 1em auto auto;
+  border-radius: 10px;
+  width: 40em;
+}
+
+.lottery button {
+  border: none;
+  background-color: darkslateblue;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 10px;
+  margin-top: 1em;
+  padding: 1em 2em;
+}
+
+.lottery button:hover {
+  cursor: pointer;
+}
+
+.lottery button:active {
+  background-color: darkblue;
+}
+
+@media (max-width: 440px) {
+  .lottery {
+    max-width: 400px;
+    font-size: .75em;
+  }
+}
